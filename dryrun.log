@@ -1,0 +1,91 @@
+make.exe --dry-run --always-make --keep-going --print-directory
+make: Entering directory 'c:/Users/Rvega/Documents/Micro/Practica_4BUE'
+ 
+process_begin: CreateProcess(NULL, uname -s, ...) failed.
+makedefs:47: pipe: No error
+
+El sistema no puede encontrar la ruta especificada.
+
+process_begin: CreateProcess(NULL, sh -c "which arm-none-eabi-gcc", ...) failed.
+makedefs:82: pipe: Bad file descriptor
+
+process_begin: CreateProcess(NULL, dirname "", ...) failed.
+makedefs:82: pipe: Bad file descriptor
+
+mkdir -p gcc
+ 
+if [ 'x' = x ];                            \
+ then                                                 \
+     echo "  CC    main.c";                             \
+ else                                                 \
+     echo arm-none-eabi-gcc -mthumb -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=softfp -ffunction-sections -fdata-sections -MD -std=c11 -Wall -pedantic -DPART_TM4C123GH6PM -c -Os -DTARGET_IS_TM4C123_RB1 -I.. -I../../.. -Dgcc -o gcc/main.o main.c; \
+ fi
+arm-none-eabi-gcc -mthumb -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=softfp -ffunction-sections -fdata-sections -MD -std=c11 -Wall -pedantic -DPART_TM4C123GH6PM -c -Os -DTARGET_IS_TM4C123_RB1 -I.. -I../../.. -Dgcc -o gcc/main.o main.c
+ 
+if [ 'x' = x ];                            \
+ then                                                 \
+     echo "  CC    startup_gcc.c";                             \
+ else                                                 \
+     echo arm-none-eabi-gcc -mthumb -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=softfp -ffunction-sections -fdata-sections -MD -std=c11 -Wall -pedantic -DPART_TM4C123GH6PM -c -Os -DTARGET_IS_TM4C123_RB1 -I.. -I../../.. -Dgcc -o gcc/startup_gcc.o startup_gcc.c; \
+ fi
+ 
+arm-none-eabi-gcc -mthumb -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=softfp -ffunction-sections -fdata-sections -MD -std=c11 -Wall -pedantic -DPART_TM4C123GH6PM -c -Os -DTARGET_IS_TM4C123_RB1 -I.. -I../../.. -Dgcc -o gcc/startup_gcc.o startup_gcc.c
+ 
+if [ 'x' = x ];                            \
+ then                                                 \
+     echo "  CC    GPIO.c";                             \
+ else                                                 \
+     echo arm-none-eabi-gcc -mthumb -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=softfp -ffunction-sections -fdata-sections -MD -std=c11 -Wall -pedantic -DPART_TM4C123GH6PM -c -Os -DTARGET_IS_TM4C123_RB1 -I.. -I../../.. -Dgcc -o gcc/GPIO.o GPIO.c; \
+ fi
+ 
+arm-none-eabi-gcc -mthumb -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=softfp -ffunction-sections -fdata-sections -MD -std=c11 -Wall -pedantic -DPART_TM4C123GH6PM -c -Os -DTARGET_IS_TM4C123_RB1 -I.. -I../../.. -Dgcc -o gcc/GPIO.o GPIO.c
+ 
+if [ 'x' = x ];                            \
+ then                                                 \
+     echo "  CC    PLL.c";                             \
+ else                                                 \
+     echo arm-none-eabi-gcc -mthumb -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=softfp -ffunction-sections -fdata-sections -MD -std=c11 -Wall -pedantic -DPART_TM4C123GH6PM -c -Os -DTARGET_IS_TM4C123_RB1 -I.. -I../../.. -Dgcc -o gcc/PLL.o PLL.c; \
+ fi
+arm-none-eabi-gcc -mthumb -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=softfp -ffunction-sections -fdata-sections -MD -std=c11 -Wall -pedantic -DPART_TM4C123GH6PM -c -Os -DTARGET_IS_TM4C123_RB1 -I.. -I../../.. -Dgcc -o gcc/PLL.o PLL.c
+ 
+if [ 'x' = x ];                            \
+ then                                                 \
+     echo "  CC    UART.c";                             \
+ else                                                 \
+     echo arm-none-eabi-gcc -mthumb -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=softfp -ffunction-sections -fdata-sections -MD -std=c11 -Wall -pedantic -DPART_TM4C123GH6PM -c -Os -DTARGET_IS_TM4C123_RB1 -I.. -I../../.. -Dgcc -o gcc/UART.o UART.c; \
+ fi
+arm-none-eabi-gcc -mthumb -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=softfp -ffunction-sections -fdata-sections -MD -std=c11 -Wall -pedantic -DPART_TM4C123GH6PM -c -Os -DTARGET_IS_TM4C123_RB1 -I.. -I../../.. -Dgcc -o gcc/UART.o UART.c
+ 
+if [ 'x' = x ];                            \
+ then                                                 \
+     echo "  CC    ADC.c";                             \
+ else                                                 \
+     echo arm-none-eabi-gcc -mthumb -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=softfp -ffunction-sections -fdata-sections -MD -std=c11 -Wall -pedantic -DPART_TM4C123GH6PM -c -Os -DTARGET_IS_TM4C123_RB1 -I.. -I../../.. -Dgcc -o gcc/ADC.o ADC.c; \
+ fi
+arm-none-eabi-gcc -mthumb -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=softfp -ffunction-sections -fdata-sections -MD -std=c11 -Wall -pedantic -DPART_TM4C123GH6PM -c -Os -DTARGET_IS_TM4C123_RB1 -I.. -I../../.. -Dgcc -o gcc/ADC.o ADC.c
+ 
+if [ 'xmain.ld' = x ];                    \
+ then                                                                 \
+     ldname="../../../build/standalone.ld";                              \
+ else                                                                 \
+     ldname="main.ld";                     \
+ fi;                                                                  \
+ if [ 'x' = x ];                                            \
+ then                                                                 \
+     echo "  LD    gcc/main.axf ";                                  \
+ else                                                                 \
+     echo arm-none-eabi-ld -T ${ldname}                                         \
+          --entry ResetISR                       \
+                                    \
+          --gc-sections -o gcc/main.axf gcc/main.o gcc/startup_gcc.o gcc/GPIO.o gcc/PLL.o gcc/UART.o gcc/ADC.o                  \
+          'c:/users/rvega/documents/micro/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp/libm.a' 'c:/users/rvega/documents/micro/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp/libc.a' 'c:/users/rvega/documents/micro/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/softfp/libgcc.a';                            \
+ fi;                                                                  \
+arm-none-eabi-ld -T ${ldname}                                                   \
+      --entry ResetISR                           \
+                                    \
+      --gc-sections -o gcc/main.axf gcc/main.o gcc/startup_gcc.o gcc/GPIO.o gcc/PLL.o gcc/UART.o gcc/ADC.o                      \
+      'c:/users/rvega/documents/micro/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp/libm.a' 'c:/users/rvega/documents/micro/gcc-arm-none-eabi-10.3-2021.10/b 
+in/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp/libc.a' 'c:/users/rvega/documents/micro/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/softfp/libgcc.a'
+arm-none-eabi-objcopy -O binary gcc/main.axf gcc/main.bin
+make: Leaving directory 'c:/Users/Rvega/Documents/Micro/Practica_4BUE'
+ 

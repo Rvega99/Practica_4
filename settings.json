@@ -1,0 +1,7 @@
+{
+    "files.associations": {
+        "uart.h": "c",
+        "stdlib.h": "c",
+        "include.h": "c"
+    }
+}

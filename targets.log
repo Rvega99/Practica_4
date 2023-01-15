@@ -1,0 +1,898 @@
+make.exe all --print-data-base --no-builtin-variables --no-builtin-rules --question
+process_begin: CreateProcess(NULL, uname -s, ...) failed.
+makedefs:47: pipe: No error
+
+El sistema no puede encontrar la ruta especificada.
+
+process_begin: CreateProcess(NULL, sh -c "which arm-none-eabi-gcc", ...) failed.
+makedefs:82: pipe: Bad file descriptor
+
+process_begin: CreateProcess(NULL, dirname "", ...) failed.
+makedefs:82: pipe: Bad file descriptor
+
+# GNU Make 4.3
+# Built for Windows32
+# Copyright (C) 1988-2020 Free Software Foundation, Inc.
+# License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+# This is free software: you are free to change and redistribute it.
+# There is NO WARRANTY, to the extent permitted by law.
+
+# Make data base, printed on Mon Jan 09 16:09:43 2023
+
+# Variables
+
+# environment
+SYSTEMDRIVE = C:
+# environment
+LC_ALL = C
+# makefile (from 'makedefs', line 116)
+AR = ${PREFIX}-ar
+# environment
+USERPROFILE = C:\Users\Rvega
+# environment
+LOCALAPPDATA = C:\Users\Rvega\AppData\Local
+# makefile (from 'Makefile', line 44)
+VPATH = ../drivers ../../../utils
+# environment
+VSCODE_CWD = C:\Users\Rvega\AppData\Local\Programs\Microsoft VS Code
+# environment
+CHOCOLATEYINSTALL = C:\ProgramData\chocolatey
+# environment
+ 
+SYSTEMROOT = C:\Windows
+# environment
+PROCESSOR_LEVEL = 6
+# environment
+PSMODULEPATH = C:\Program Files\WindowsPowerShell\Modules;C:\Windows\system32\WindowsPowerShell\v1.0\Modules
+# makefile (from 'Makefile', line 50)
+IPATH = .. ../../..
+# default
+MAKE_COMMAND := C:/ProgramData/chocolatey/lib/make/tools/install/bin/make.exe
+# automatic
+@D = $(patsubst %/,%,$(patsubst %\,%,$(dir $@)))
+# environment
+CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\LOCAL\crashpad_5912_PKVVWLAEXJPNELWJ
+# environment
+VSCODE_HANDLES_UNCAUGHT_ERRORS = true
+# default
+.VARIABLES := 
+# makefile (from 'Makefile', line 89)
+ENTRY_main = ResetISR
+# automatic
+%D = $(patsubst %/,%,$(patsubst %\,%,$(dir $%)))
+# automatic
+^D = $(patsubst %/,%,$(patsubst %\,%,$(dir $^)))
+# automatic
+%F = $(notdir $%)
+# environment
+VSCODE_CODE_CACHE_PATH = C:\Users\Rvega\AppData\Roaming\Code\CachedData\5235c6bb189b60b01b1f49062f4ffa42384f8c91
+# environment
+LANG = C
+# default
+.LOADED := 
+# environment
+TMP = C:\Users\Rvega\AppData\Local\Temp
+# default
+.INCLUDE_DIRS = .
+# environment
+PROCESSOR_ARCHITEW6432 = AMD64
+# makefile
+MAKEFLAGS = pqrR
+# environment
+ONEDRIVE = C:\Users\Rvega\OneDrive
+# makefile
+CURDIR := c:/Users/Rvega/Documents/Micro/Practica_4BUE
+# makefile (from 'makedefs', line 141)
+LIBM := c:/users/rvega/documents/micro/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp/libm.a
+# makefile (from 'makedefs', line 136)
+LIBC := c:/users/rvega/documents/micro/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp/libc.a
+# environment
+APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = 1
+# automatic
+*D = $(patsubst %/,%,$(patsubst %\,%,$(dir $*)))
+# environment
+PROGRAMFILES = C:\Program Files (x86)
+# environment
+MFLAGS = -pqrR
+# default
+.SHELLFLAGS := -c
+# environment
+COMMONPROGRAMW6432 = C:\Program Files\Common Files
+# automatic
++D = $(patsubst %/,%,$(patsubst %\,%,$(dir $+)))
+# makefile (from 'gcc/startup_gcc.d', line 1)
+MAKEFILE_LIST := Makefile makedefs gcc/ADC.d gcc/GPIO.d gcc/PLL.d gcc/UART.d gcc/main.d gcc/startup_gcc.d
+# automatic
+@F = $(notdir $@)
+# environment
+VSCODE_PID = 5912
+# automatic
+?D = $(patsubst %/,%,$(patsubst %\,%,$(dir $?)))
+# environment
+__PSLOCKDOWNPOLICY = 0
+# automatic
+*F = $(notdir $*)
+# automatic
+<D = $(patsubst %/,%,$(patsubst %\,%,$(dir $<)))
+# environment
+VSCODE_NLS_CONFIG = {"locale":"es-mx","availableLanguages":{"*":"es"},"_languagePackId":"5b3efed3e801c38cc269199477353248.es","_translationsConfigFile":"C:\\Users\\Rvega\\AppData\\Roaming\\Code\\clp\\5b3efed3e801c38cc269199477353248.es\\tcf.json","_cacheRoot":"C:\\Users\\Rvega\\AppData\\Roaming\\Code\\clp\\5b3efed3e801c38cc269199477353248.es","_resolvedLanguagePackCoreLocation":"C:\\Users\\Rvega\\AppData\\Roaming\\Code\\clp\\5b3efed3e801c38cc269199477353248.es\\5235c6bb189b60b01b1f49062f4ffa42384f8c91","_corruptedFile":"C:\\Users\\Rvega\\AppData\\Roaming\\Code\\clp\\5b3efed3e801c38cc269199477353248.es\\corrupted.info","_languagePackSupport":true}
+# default
+MAKE_HOST := Windows32
+# makefile (from 'makedefs', line 55)
+COMPILER = gcc
+# environment
+PROGRAMDATA = C:\ProgramData
+# default
+SHELL := sh.exe
+# environment
+HOMEPATH = \Users\Rvega
+# default
+MAKECMDGOALS := all
+# makefile (from 'Makefile', line 90)
+CFLAGSgcc = -DTARGET_IS_TM4C123_RB1
+# environment
+DRIVERDATA = C:\Windows\System32\Drivers\DriverData
+# environment
+COMSPEC = C:\Windows\system32\cmd.exe
+# environment
+WINDIR = C:\Windows
+# environment
+MAKELEVEL := 0
+# default
+MAKE = $(MAKE_COMMAND)
+# environment
+PATH = C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\ProgramData\chocolatey\bin;C:\ProgramData\chocolatey\lib\openocd\tools\OpenOCD-20211118-0.11.0\bin;C:\Program Files\Polyspace\R2019a\runtime\win64;C:\Program Files\Polyspace\R2019a\bin;C:\Program Files\Polyspace\R2019a\polyspace\bin;C:\Program Files\Git\cmd;C:\Users\Rvega\AppData\Local\Programs\Python\Python37\Scripts\;C:\Users\Rvega\AppData\Local\Programs\Python\Python37\;C:\Users\Rvega\AppData\Local\Microsoft\WindowsApps;C:\Users\Rvega\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Rvega\Documents\Micro\gcc-arm-none-eabi-10.3-2021.10\bin;C:\Users\Rvega\Documents\Micro\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe;C:\MinGW\bin
+# environment
+COMPUTERNAME = DESKTOP-NM38U85
+# default
+MAKEFILES := 
+# automatic
+^F = $(notdir $^)
+# makefile (from 'makedefs', line 88)
+FPU = -mfpu=fpv4-sp-d16 -mfloat-abi=softfp
+# environment
+PROMPT = $P$G
+# environment
+CHOCOLATEYLASTPATHUPDATE = 133087829972773761
+# makefile (from 'Makefile', line 28)
+PART = TM4C123GH6PM
+# makefile (from 'makedefs', line 47)
+os := 
+# makefile (from 'Makefile', line 33)
+ROOT = ../../..
+# makefile (from 'makedefs', line 167)
+AFLAGS = -mthumb ${CPU} ${FPU} -MD ${patsubst %,-I%,${subst :, ,${IPATH}}}
+# makefile (from 'makedefs', line 69)
+PREFIX := arm-none-eabi
+# environment
+LOGONSERVER = \\DESKTOP-NM38U85
+# makefile (from 'makedefs', line 131)
+LIBGCC := c:/users/rvega/documents/micro/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/softfp/libgcc.a
+# environment
+USERNAME = Rvega
+# makefile (from 'makedefs', line 87)
+CPU = -mcpu=cortex-m4
+# environment
+COMMONPROGRAMFILES = C:\Program Files (x86)\Common Files
+# makefile (from 'makedefs', line 82)
+ARMGCC_ROOT := /..
+# automatic
+?F = $(notdir $?)
+# environment
+PROGRAMW6432 = C:\Program Files
+# makefile (from 'Makefile', line 88)
+SCATTERgcc_main = main.ld
+# environment
+PATHEXT = .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
+# automatic
++F = $(notdir $+)
+# environment
+ORIGINAL_XDG_CURRENT_DESKTOP = undefined
+# environment
+USERDOMAIN = DESKTOP-NM38U85
+# 'override' directive
+GNUMAKEFLAGS := 
+# environment
+OS = Windows_NT
+# environment
+__COMPAT_LAYER = Installer
+# makefile
+.DEFAULT_GOAL := all
+# default
+MAKE_VERSION := 4.3
+# 'override' directive
+.SHELLSTATUS := 0
+# environment
+PROGRAMFILES(X86) = C:\Program Files (x86)
+# makefile (from 'makedefs', line 126)
+LDFLAGS = --gc-sections
+# environment
+USERDOMAIN_ROAMINGPROFILE = DESKTOP-NM38U85
+# environment
+NUMBER_OF_PROCESSORS = 4
+# environment
+PUBLIC = C:\Users\Public
+# environment
+APPDATA = C:\Users\Rvega\AppData\Roaming
+# makefile (from 'makedefs', line 168)
+CFLAGS = -mthumb ${CPU} ${FPU} -ffunction-sections -fdata-sections -MD -std=c11 -Wall -pedantic -DPART_${PART} -c -Os ${CFLAGSgcc} ${patsubst %,-I%,${subst :, ,${IPATH}}}
+# environment
+HOMEDRIVE = C:
+# environment
+PROCESSOR_ARCHITECTURE = x86
+# environment
+VSCODE_AMD_ENTRYPOINT = vs/workbench/api/node/extensionHostProcess
+# environment
+COMMONPROGRAMFILES(X86) = C:\Program Files (x86)\Common Files
+# environment
+ELECTRON_RUN_AS_NODE = 1
+# environment
+TEMP = C:\Users\Rvega\AppData\Local\Temp
+# environment
+VSCODE_IPC_HOOK = \\.\pipe\d0b00dfcb2b087e33e0530502dfe6de1-1.74.0-main-sock
+# default
+.RECIPEPREFIX := 
+# automatic
+<F = $(notdir $<)
+# default
+SUFFIXES := 
+# environment
+ALLUSERSPROFILE = C:\ProgramData
+# makefile (from 'makedefs', line 121)
+LD = ${PREFIX}-ld
+# default
+.FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell nocomment grouped-target extra-prereqs archives jobserver output-sync load
+# environment
+PROCESSOR_REVISION = 4501
+# makefile (from 'makedefs', line 75)
+CC = ${PREFIX}-gcc
+# makefile (from 'makedefs', line 146)
+OBJCOPY = ${PREFIX}-objcopy
+# environment
+PROCESSOR_IDENTIFIER = Intel64 Family 6 Model 69 Stepping 1, GenuineIntel
+# variable set hash-table stats:
+# Load=114/1024=11%, Rehash=0, Collisions=19/278=7%
+
+# Pattern-specific Variable Values
+
+# No pattern-specific variable values.
+
+# Directories
+
+# ../drivers: could not be stat'd.
+# gcc (key c:/Users/Rvega/Documents/Micro/Practica_4BUE/gcc, mtime 1672941204): 16 files, no impossibilities.
+# . (key c:/Users/Rvega/Documents/Micro/Practica_4BUE, mtime 1672941198): 19 files, no impossibilities.
+# ../../../utils: could not be stat'd.
+
+# 35 files, no impossibilities in 4 directories.
+
+# Implicit Rules
+
+gcc/%.o: %.c
+#  recipe to execute (from 'makedefs', line 174):
+	@if [ 'x${VERBOSE}' = x ];                            \
+	 then                                                 \
+	     echo "  CC    ${<}";                             \
+	 else                                                 \
+	     echo ${CC} ${CFLAGS} -D${COMPILER} -o ${@} ${<}; \
+	 fi
+	@${CC} ${CFLAGS} -D${COMPILER} -o ${@} ${<}
+
+gcc/%.o: %.S
+#  recipe to execute (from 'makedefs', line 192):
+	@if [ 'x${VERBOSE}' = x ];                               \
+	 then                                                    \
+	     echo "  AS    ${<}";                                \
+	 else                                                    \
+	     echo ${CC} ${AFLAGS} -D${COMPILER} -o ${@} -c ${<}; \
+	 fi
+	@${CC} ${AFLAGS} -D${COMPILER} -o ${@} -c ${<}
+
+gcc/%.a:
+#  recipe to execute (from 'makedefs', line 210):
+	@if [ 'x${VERBOSE}' = x ];     \
+	 then                          \
+	     echo "  AR    ${@}";      \
+	 else                          \
+	     echo ${AR} -cr ${@} ${^}; \
+	 fi
+	@${AR} -cr ${@} ${^}
+
+gcc/%.axf:
+#  recipe to execute (from 'makedefs', line 222):
+	@if [ 'x${SCATTERgcc_${notdir ${@:.axf=}}}' = x ];                    \
+	 then                                                                 \
+	     ldname="${ROOT}/build/standalone.ld";                              \
+	 else                                                                 \
+	     ldname="${SCATTERgcc_${notdir ${@:.axf=}}}";                     \
+	 fi;                                                                  \
+	 if [ 'x${VERBOSE}' = x ];                                            \
+	 then                                                                 \
+	     echo "  LD    ${@} ${LNK_SCP}";                                  \
+	 else                                                                 \
+	     echo ${LD} -T $${ldname}                                         \
+	          --entry ${ENTRY_${notdir ${@:.axf=}}}                       \
+	          ${LDFLAGSgcc_${notdir ${@:.axf=}}}                          \
+	          ${LDFLAGS} -o ${@} $(filter %.o %.a, ${^})                  \
+	          '${LIBM}' '${LIBC}' '${LIBGCC}';                            \
+	 fi;                                                                  \
+	${LD} -T $${ldname}                                                   \
+	      --entry ${ENTRY_${notdir ${@:.axf=}}}                           \
+	      ${LDFLAGSgcc_${notdir ${@:.axf=}}}                              \
+	      ${LDFLAGS} -o ${@} $(filter %.o %.a, ${^})                      \
+	      '${LIBM}' '${LIBC}' '${LIBGCC}'
+	@${OBJCOPY} -O binary ${@} ${@:.axf=.bin}
+
+# 4 implicit rules, 0 (0.0%) terminal.
+# Files
+
+# Not a target:
+UART.c:
+#  Implicit rule search has been done.
+#  Last modified 2022-12-30 21:07:15
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+c:\users\rvega\documents\micro\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\include\sys\_types.h:
+#  Implicit rule search has been done.
+#  Last modified 2021-10-17 17:48:14
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+lib/include.h:
+# 
+  Implicit rule search has been done.
+#  Last modified 2022-12-28 22:27:28
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+c:\users\rvega\documents\micro\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\include\sys\_intsup.h:
+#  Implicit rule search has been done.
+#  Last modified 2021-10-17 17:48:14
+#  File has been updated.
+#  Successfully updated.
+
+gcc/PLL.o: PLL.c PLL.c lib/include.h c:\users\rvega\documents\micro\gcc-arm-none-eabi-10.3-2021.10\lib\gcc\arm-none-eabi\10.3.1\include\stdint.h c:\users\rvega\documents\micro\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\include\stdint.h c:\users\rvega\documents\micro\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\include\machine\_default_types.h c:\users\rvega\documents\micro\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\include\sys\features.h c:\users\rvega\documents\micro\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\include\_newlib_version.h c:\users\rvega\documents\micro\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\include\sys\_intsup.h c:\users\rvega\documents\micro\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\include\sys\_stdint.h c:\users\rvega\documents\micro\gcc-arm-none-eabi-10.3-2021.10\lib\gcc\arm-none-eabi\10.3.1\include\stdbool.h c:\users\rvega\documents\micro\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\include\stdlib.h c:\users\rvega\documents\micro\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\include\machine\ieeefp.h c:\users\rvega\documents\micro\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\include\_ansi.h c:\users\rvega\documents\micro\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\include\newlib.h c:\users\rvega\documents\micro\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\include\sys\config.h c:\users\rvega\documents\micro\gcc-arm-none-eabi-10.3-2021.10\lib\gcc\arm-none-eabi\10.3.1\include\stddef.h c:\users\rvega\documents\micro\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\include\sys\reent.h c:\users\rvega\documents\micro\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\include\_ansi.h c:\users\rvega\documents\micro\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\include\sys\_types.h c:\users\rvega\documents\micro\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\include\machine\_types.h c:\users\rvega\documents\micro\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\include\sys\lock.h c:\users\rvega\documents\micro\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\include\sys\cdefs.h c:\users\rvega\documents\micro\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\include\machine\stdlib.h c:\users\rvega\documents\micro\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\include\string.h c:\users\rvega\documents\micro\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\include\sys\string.h c:\users\rvega\documents\micro\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\include\math.h lib/TM4C1294NCPDT.h lib/../CMSIS/Include/core_cm4.h lib/../CMSIS/Include/core_cmInstr.h lib/../CMSIS/Include/core_cmFunc.h lib/../CMSIS/Include/core_cm4_simd.h lib/../lib/system_TM4C129.h lib/PLL.h lib/GPIO.h lib/UART.h lib/ADC.h lib/SYSTICK.h
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'PLL'
+#  Last modified 2023-01-05 11:53:22
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'makedefs', line 174):
+	@if [ 'x${VERBOSE}' = x ];                            \
+	 then                                                 \
+	     echo "  CC    ${<}";                             \
+	 else                                                 \
+	     echo ${CC} ${CFLAGS} -D${COMPILER} -o ${@} ${<}; \
+	 fi
+	@${CC} ${CFLAGS} -D${COMPILER} -o ${@} ${<}
+
+# Not a target:
+lib/UART.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-12-28 23:54:12
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+makedefs:
+#  Implicit rule search has been done.
+#  Last modified 2022-12-27 16:51:44
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+c:\users\rvega\documents\micro\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\include\machine\_default_types.h:
+#  Implicit rule search has been done.
+#  Last modified 2021-10-17 17:48:14
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+c:\users\rvega\documents\micro\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\include\string.h:
+#  Implicit rule search has been done.
+#  Last modified 2021-10-17 17:48:14
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+c:\users\rvega\documents\micro\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\include\sys\lock.h:
+#  Implicit rule search has been done.
+#  Last modified 2021-10-17 17:48:14
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+lib/hw_nvic.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-12-27 16:51:44
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+gcc/ADC.d:
+#  Implicit rule search has been done.
+#  Last modified 2023-01-05 11:53:23
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+gcc/PLL.d:
+#  Implicit rule search has been done.
+#  Last modified 2023-01-05 11:53:22
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+gcc/main.d:
+#  Implicit rule search has been done.
+#  Last modified 2023-01-05 11:53:21
+#  File has been updated.
+#  Successfully updated.
+
+# makefile (from 'Makefile', line 62)
+debug: CFLAGS += -g -D DEBUG
+debug: gcc gcc/main.axf
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+# variable set hash-table stats:
+# Load=1/32=3%, Rehash=0, Collisions=0/3=0%
+
+# Not a target:
+Makefile:
+#  Implicit rule search has been done.
+#  Last modified 2022-12-27 16:51:44
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+lib/GPIO.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-12-27 16:51:44
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+c:\users\rvega\documents\micro\gcc-arm-none-eabi-10.3-2021.10\lib\gcc\arm-none-eabi\10.3.1\include\stdint.h:
+#  Implicit rule search has been done.
+#  Last modified 2021-10-17 18:11:28
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+GPIO.c:
+#  Implicit rule search has been done.
+#  Last modified 2022-12-27 16:51:44
+#  File has been updated.
+#  Successfully updated.
+
+clean:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 70):
+	@rm -rf ${COMPILER} ${wildcard *~}
+
+# Not a target:
+c:\users\rvega\documents\micro\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\include\sys\reent.h:
+#  Implicit rule search has been done.
+#  Last modified 2021-10-17 17:48:14
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+gcc/GPIO.d:
+#  Implicit rule search has been done.
+#  Last modified 2023-01-05 11:53:22
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+c:\users\rvega\documents\micro\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\include\stdint.h:
+#  Implicit rule search has been done.
+#  Last modified 2021-10-17 17:48:14
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+lib/../CMSIS/Include/core_cm4.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-12-27 16:51:44
+#  File has been updated.
+#  Successfully updated.
+
+gcc/startup_gcc.o: startup_gcc.c startup_gcc.c c:\users\rvega\documents\micro\gcc-arm-none-eabi-10.3-2021.10\lib\gcc\arm-none-eabi\10.3.1\include\stdint.h c:\users\rvega\documents\micro\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\include\stdint.h c:\users\rvega\documents\micro\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\include\machine\_default_types.h c:\users\rvega\documents\micro\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\include\sys\features.h c:\users\rvega\documents\micro\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\include\_newlib_version.h c:\users\rvega\documents\micro\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\include\sys\_intsup.h c:\users\rvega\documents\micro\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\include\sys\_stdint.h lib/hw_nvic.h lib/hw_types.h
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'startup_gcc'
+#  Last modified 2023-01-05 11:53:21
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'makedefs', line 174):
+	@if [ 'x${VERBOSE}' = x ];                            \
+	 then                                                 \
+	     echo "  CC    ${<}";                             \
+	 else                                                 \
+	     echo ${CC} ${CFLAGS} -D${COMPILER} -o ${@} ${<}; \
+	 fi
+	@${CC} ${CFLAGS} -D${COMPILER} -o ${@} ${<}
+
+# Not a target:
+c:\users\rvega\documents\micro\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\include\_ansi.h:
+#  Implicit rule search has been done.
+#  Last modified 2021-10-17 17:48:14
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+c:\users\rvega\documents\micro\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\include\sys\_stdint.h:
+#  Implicit rule search has been done.
+#  Last modified 2021-10-17 17:48:14
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+c:\users\rvega\documents\micro\gcc-arm-none-eabi-10.3-2021.10\lib\gcc\arm-none-eabi\10.3.1\include\stddef.h:
+#  Implicit rule search has been done.
+#  Last modified 2021-10-17 18:11:28
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+lib/PLL.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-12-27 16:51:44
+#  File has been updated.
+#  Successfully updated.
+
+gcc/UART.o: UART.c UART.c lib/include.h c:\users\rvega\documents\micro\gcc-arm-none-eabi-10.3-2021.10\lib\gcc\arm-none-eabi\10.3.1\include\stdint.h c:\users\rvega\documents\micro\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\include\stdint.h c:\users\rvega\docum 
+ents\micro\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\include\machine\_default_types.h c:\users\rvega\documents\micro\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\include\sys\features.h c:\users\rvega\documents\micro\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\include\_newlib_version.h c:\users\rvega\documents\micro\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\include\sys\_intsup.h c:\users\rvega\documents\micro\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\include\sys\_stdint.h c:\users\rvega\documents\micro\gcc-arm-none-eabi-10.3-2021.10\lib\gcc\arm-none-eabi\10.3.1\include\stdbool.h c:\users\rvega\documents\micro\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\include\stdlib.h c:\users\rvega\documents\micro\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\include\machine\ieeefp.h c:\users\rvega\documents\micro\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\include\_ansi.h c:\users\rvega\documents\micro\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\include\newlib.h c:\users\rvega\documents\micro\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\include\sys\config.h c:\users\rvega\documents\micro\gcc-arm-none-eabi-10.3-2021.10\lib\gcc\arm-none-eabi\10.3.1\include\stddef.h c:\users\rvega\documents\micro\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\include\sys\reent.h c:\users\rvega\documents\micro\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\include\_ansi.h c:\users\rvega\documents\micro\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\include\sys\_types.h c:\users\rvega\documents\micro\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\include\machine\_types.h c:\users\rvega\documents\micro\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\include\sys\lock.h c:\users\rvega\documents\micro\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\include\sys\cdefs.h c:\users\rvega\documents\micro\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\include\machine\stdlib.h c:\users\rvega\documents\micro\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\include\string.h c:\users\rvega\documents\micro\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\include\sys\string.h c:\users\rvega\documents\micro\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\include\math.h lib/TM4C1294NCPDT.h lib/../CMSIS/Include/core_cm4.h lib/../CMSIS/Include/core_cmInstr.h lib/../CMSIS/Include/core_cmFunc.h lib/../CMSIS/Include/core_cm4_simd.h lib/../lib/system_TM4C129.h lib/PLL.h lib/GPIO.h lib/UART.h lib/ADC.h lib/SYSTICK.h
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'UART'
+#  Last modified 2023-01-05 11:53:23
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'makedefs', line 174):
+	@if [ 'x${VERBOSE}' = x ];                            \
+	 then                                                 \
+	     echo "  CC    ${<}";                             \
+	 else                                                 \
+	     echo ${CC} ${CFLAGS} -D${COMPILER} -o ${@} ${<}; \
+	 fi
+	@${CC} ${CFLAGS} -D${COMPILER} -o ${@} ${<}
+
+# Not a target:
+c:\users\rvega\documents\micro\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\include\machine\stdlib.h:
+#  Implicit rule search has been done.
+#  Last modified 2021-10-17 17:48:14
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+c:\users\rvega\documents\micro\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\include\machine\_types.h:
+#  Implicit rule search has been done.
+#  Last modified 2021-10-17 17:48:14
+#  File has been updated.
+#  Successfully updated.
+
+gcc/ADC.o: ADC.c ADC.c lib/include.h c:\users\rvega\documents\micro\gcc-arm-none-eabi-10.3-2021.10\lib\gcc\arm-none-eabi\10.3.1\include\stdint.h c:\users\rvega\documents\micro\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\include\stdint.h c:\users\rvega\documents\micro\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\include\machine\_default_types.h c:\users\rvega\documents\micro\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\include\sys\features.h c:\users\rvega\documents\micro\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\include\_newlib_version.h c:\users\rvega\documents\micro\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\include\sys\_intsup.h c:\users\rvega\documents\micro\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\include\sys\_stdint.h c:\users\rvega\documents\micro\gcc-arm-none-eabi-10.3-2021.10\lib\gcc\arm-none-eabi\10.3.1\include\stdbool.h c:\users\rvega\documents\micro\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\include\stdlib.h c:\users\rvega\documents\micro\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\include\machine\ieeefp.h c:\users\rvega\documents\micro\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\include\_ansi.h c:\users\rvega\documents\micro\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\include\newlib.h c:\users\rvega\documents\micro\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\include\sys\config.h c:\users\rvega\documents\micro\gcc-arm-none-eabi-10.3-2021.10\lib\gcc\arm-none-eabi\10.3.1\include\stddef.h c:\users\rvega\documents\micro\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\include\sys\reent.h c:\users\rvega\documents\micro\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\include\_ansi.h c:\users\rvega\documents\micro\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\include\sys\_types.h c:\users\rvega\documents\micro\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\include\machine\_types.h c:\users\rvega\documents\micro\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\include\sys\lock.h c:\users\rvega\documents\micro\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\include\sys\cdefs.h c:\users\rvega\documents\micro\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\include\machine\stdlib.h c:\users\rvega\documents\micro\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\include\string.h c:\users\rvega\documents\micro\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\include\sys\string.h c:\users\rvega\documents\micro\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\include\math.h lib/TM4C1294NCPDT.h lib/../CMSIS/Include/core_cm4.h lib/../CMSIS/Include/core_cmInstr.h lib/../CMSIS/Include/core_cmFunc.h lib/../CMSIS/Include/core_cm4_simd.h lib/../lib/system_TM4C129.h lib/PLL.h lib/GPIO.h lib/UART.h lib/ADC.h lib/SYSTICK.h
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'ADC'
+#  Last modified 2023-01-05 11:53:23
+#  File has been updated.
+#  Needs to be updated (-q is set).
+# automatic
+# @ := gcc/ADC.o
+# automatic
+# * := ADC
+# automatic
+# < := ADC.c
+# automatic
+# + := ADC.c ADC.c lib/include.h c:\users\rvega\documents\micro\gcc-arm-none-eabi-10.3-2021.10\lib\gcc\arm-none-eabi\10.3.1\include\stdint.h c:\users\rvega\documents\micro\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\include\stdint.h c:\users\rvega\documents\micro\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\include\machine\_default_types.h c:\users\rvega\documents\micro\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\include\sys\features.h c:\users\rvega\documents\micro\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\include\_newlib_version.h c:\users\rvega\documents\micro\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\include\sys\_intsup.h c:\users\rvega\documents\micro\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\include\sys\_stdint.h c:\users\rvega\documents\micro\gcc-arm-none-eabi-10.3-2021.10\lib\gcc\arm-none-eabi\10.3.1\include\stdbool.h c:\users\rvega\documents\micro\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\include\stdlib.h c:\users\rvega\documents\micro\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\include\machine\ieeefp.h c:\users\rvega\documents\micro\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\include\_ansi.h c:\users\rvega\documents\micro\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\include\newlib.h c:\users\rvega\documents\micro\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\include\sys\config.h c:\users\rvega\documents\micro\gcc-arm-none-eabi-10.3-2021.10\lib\gcc\arm-none-eabi\10.3.1\include\stddef.h c:\users\rvega\documents\micro\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\include\sys\reent.h c:\users\rvega\documents\micro\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\include\_ansi.h c:\users\rvega\documents\micro\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\include\sys\_types.h c:\users\rvega\documents\micro\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\include\machine\_types.h c:\users\rvega\documents\micro\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\include\sys\lock.h c:\users\rvega\documents\micro\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\include\sys\cdefs.h c:\users\rvega\documents\micro\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\include\machine\stdlib.h c:\users\rvega\documents\micro\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\include\string.h c:\users\rvega\documents\micro\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\include\sys\string.h c:\users\rvega\documents\micro\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\include\math.h lib/TM4C1294NCPDT.h lib/../CMSIS/Include/core_cm4.h lib/../CMSIS/Include/core_cmInstr.h lib/../CMSIS/Include/core_cmFunc.h lib/../CMSIS/Include/core_cm4_simd.h lib/../lib/system_TM4C129.h lib/PLL.h lib/GPIO.h lib/UART.h lib/ADC.h lib/SYSTICK.h
+# automatic
+# % := 
+# automatic
+# ^ := ADC.c lib/include.h c:\users\rvega\documents\micro\gcc-arm-none-eabi-10.3-2021.10\lib\gcc\arm-none-eabi\10.3.1\include\stdint.h c:\users\rvega\documents\micro\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\include\stdint.h c:\users\rvega\documents\micro\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\include\machine\_default_types.h c:\users\rvega\documents\micro\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\include\sys\features.h c:\users\rvega\documents\micro\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\include\_newlib_version.h c:\users\rvega\documents\micro\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\include\sys\_intsup.h c:\users\rvega\documents\micro\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\include\sys\_stdint.h c:\users\rvega\documents\micro\gcc-arm-none-eabi-10.3-2021.10\lib\gcc\arm-none-eabi\10.3.1\include\stdbool.h c:\users\rvega\documents\micro\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\include\stdlib.h c:\users\rvega\documents\micro\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\include\machine\ieeefp.h c:\users\rvega\documents\micro\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\include\_ansi.h c:\users\rvega\documents\micro\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\include\newlib.h c:\users\rvega\documents\micro\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\include\sys\config.h c:\users\rvega\documents\micro\gcc-arm-none-eabi-10.3-2021.10\lib\gcc\arm-none-eabi\10.3.1\include\stddef.h c:\users\rvega\documents\micro\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\include\sys\reent.h c:\users\rvega\documents\micro\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\include\sys\_types.h c:\users\rvega\documents\micro\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\include\machine\_types.h c:\users\rvega\documents\micro\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\include\sys\lock.h c:\users\rvega\documents\micro\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\include\sys\cdefs.h c:\users\rvega\documents\micro\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\include\machine\stdlib.h c:\users\rvega\documents\micro\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\include\string.h c:\users\rvega\documents\micro\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\include\sys\string.h c:\users\rvega\documents\micro\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\include\math.h lib/TM4C1294NCPDT.h lib/../CMSIS/Include/core_cm4.h lib/../CMSIS/Include/core_cmInstr.h lib/../CMSIS/Include/core_cmFunc.h lib/../CMSIS/Include/core_cm4_simd.h lib/../lib/system_TM4C129.h lib/PLL.h lib/GPIO.h lib/UART.h lib/ADC.h lib/SYSTICK.h
+# automatic
+# ? := ADC.c
+# automatic
+# | := 
+# variable set hash-table stats:
+# Load=8/32=25%, Rehash=0, Collisions=15/35=43%
+#  recipe to execute (from 'makedefs', line 174):
+	@if [ 'x${VERBOSE}' = x ];                            \
+	 then                                                 \
+	     echo "  CC    ${<}";                             \
+	 else                                                 \
+	     echo ${CC} ${CFLAGS} -D${COMPILER} -o ${@} ${<}; \
+	 fi
+	@${CC} ${CFLAGS} -D${COMPILER} -o ${@} ${<}
+
+# Not a target:
+c:\users\rvega\documents\micro\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\include\_newlib_version.h:
+#  Implicit rule search has been done.
+#  Last modified 2021-10-17 17:48:14
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+.DEFAULT:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+PLL.c:
+#  Implicit rule search has been done.
+#  Last modified 2022-12-27 16:51:44
+#  File has been updated.
+#  Successfully updated.
+
+all: gcc gcc/main.axf
+#  Command line target.
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has been updated.
+#  Needs to be updated (-q is set).
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/22=0%
+
+gcc/main.o: main.c main.c lib/include.h c:\users\rvega\documents\micro\gcc-arm-none-eabi-10.3-2021.10\lib\gcc\arm-none-eabi\10.3.1\include\stdint.h c:\users\rvega\documents\micro\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\include\stdint.h c:\users\rvega\documents\micro\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\include\machine\_default_types.h c:\users\rvega\documents\micro\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\include\sys\features.h c:\users\rvega\documents\micro\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\include\_newlib_version.h c:\users\rvega\documents\micro\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\include\sys\_intsup.h c:\users\rvega\documents\micro\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\include\sys\_stdint.h c:\users\rvega\documents\micro\gcc-arm-none-eabi-10.3-2021.10\lib\gcc\arm-none-eabi\10.3.1\include\stdbool.h c:\users\rvega\documents\micro\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\include\stdlib.h c:\users\rvega\documents\micro\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\include\machine\ieeefp.h c:\users\rvega\documents\micro\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\include\_ansi.h c:\users\rvega\documents\micro\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\include\newlib.h c:\users\rvega\documents\micro\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\include\sys\config.h c:\users\rvega\documents\micro\gcc-arm-none-eabi-10.3-2021.10\lib\gcc\arm-none-eabi\10.3.1\include\stddef.h c:\users\rvega\documents\micro\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\include\sys\reent.h c:\users\rvega\documents\micro\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\include\_ansi.h c:\users\rvega\documents\micro\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\include\sys\_types.h c:\users\rvega\documents\micro\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\include\machine\_types.h c:\users\rvega\documents\micro\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\include\sys\lock.h c:\users\rvega\documents\micro\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\include\sys\cdefs.h c:\users\rvega\documents\micro\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\include\machine\stdlib.h c:\users\rvega\documents\micro\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\include\string.h c:\users\rvega\documents\micro\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\include\sys\string.h c:\users\rvega\documents\micro\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\include\math.h lib/TM4C1294NCPDT.h lib/../CMSIS/Include/core_cm4.h lib/../CMSIS/Include/core_cmInstr.h lib/../CMSIS/Include/core_cmFunc.h lib/../CMSIS/Include/core_cm4_simd.h lib/../lib/system_TM4C129.h lib/PLL.h lib/GPIO.h lib/UART.h lib/ADC.h lib/SYSTICK.h
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'main'
+#  Last modified 2023-01-05 11:53:21
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'makedefs', line 174):
+	@if [ 'x${VERBOSE}' = x ];                            \
+	 then                                                 \
+	     echo "  CC    ${<}";                             \
+	 else                                                 \
+	     echo ${CC} ${CFLAGS} -D${COMPILER} -o ${@} ${<}; \
+	 fi
+	@${CC} ${CFLAGS} -D${COMPILER} -o ${@} ${<}
+
+gcc/main.axf: gcc/main.o gcc/startup_gcc.o gcc/GPIO.o gcc/PLL.o gcc/UART.o gcc/ADC.o main.ld
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'main'
+#  Last modified 2023-01-05 11:53:23
+#  File has been updated.
+#  Needs to be updated (-q is set).
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/22=0%
+#  recipe to execute (from 'makedefs', line 222):
+	@if [ 'x${SCATTERgcc_${notdir ${@:.axf=}}}' = x ];                    \
+	 then                                                                 \
+	     ldname="${ROOT}/build/standalone.ld";                              \
+	 else                                                                 \
+	     ldname="${SCATTERgcc_${notdir ${@:.axf=}}}";                     \
+	 fi;                                                                  \
+	 if [ 'x${VERBOSE}' = x ];                                            \
+	 then                                                                 \
+	     echo "  LD    ${@} ${LNK_SCP}";                                  \
+	 else                                                                 \
+	     echo ${LD} -T $${ldname}                                         \
+	          --entry ${ENTRY_${notdir ${@:.axf=}}}                       \
+	          ${LDFLAGSgcc_${notdir ${@:.axf=}}}                          \
+	          ${LDFLAGS} -o ${@} $(filter %.o %.a, ${^})                  \
+	          '${LIBM}' '${LIBC}' '${LIBGCC}';                            \
+	 fi;                                                                  \
+	${LD} -T $${ldname}                                                   \
+	      --entry ${ENTRY_${notdir ${@:.axf=}}}                           \
+	      ${LDFLAGSgcc_${notdir ${@:.axf=}}}                              \
+	      ${LDFLAGS} -o ${@} $(filter %.o %.a, ${^})                      \
+	      '${LIBM}' '${LIBC}' '${LIBGCC}'
+	@${OBJCOPY} -O binary ${@} ${@:.axf=.bin}
+
+gcc:
+#  Implicit rule search has not been done.
+#  Last modified 2023-01-05 11:53:24
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'Makefile', line 76):
+	@mkdir -p ${COMPILER}
+
+# Not a target:
+c:\users\rvega\documents\micro\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\include\machine\ieeefp.h:
+#  Implicit rule search has been done.
+#  Last modified 2021-10-17 17:48:14
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+c:\users\rvega\documents\micro\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\include\newlib.h:
+#  Implicit rule search has been done.
+#  Last modified 2021-10-17 17:48:14
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+lib/../lib/system_TM4C129.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-12-27 16:51:44
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+main.c:
+#  Implicit rule search has been done.
+#  Last modified 2023-01-05 11:52:44
+#  File has been updated.
+#  Successfully updated.
+
+gcc/GPIO.o: GPIO.c GPIO.c lib/include.h c:\users\rvega\documents\micro\gcc-arm-none-eabi-10.3-2021.10\lib\gcc\arm-none-eabi\10.3.1\include\stdint.h c:\users\rvega\documents\micro\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\include\stdint.h c:\users\rvega\documents\micro\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\include\machine\_default_types.h c:\users\rvega\documents\micro\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\include\sys\features.h c:\users\rvega\documents\micro\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\include\_newlib_version.h c:\users\rvega\documents\micro\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\include\sys\_intsup.h c:\users\rvega\documents\micro\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\include\sys\_stdint.h c:\users\rvega\documents\micro\gcc-arm-none-eabi-10.3-2021.10\lib\gcc\arm-none-eabi\10.3.1\include\stdbool.h c:\users\rvega\documents\micro\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\include\stdlib.h c:\users\rvega\documents\micro\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\include\machine\ieeefp.h c:\users\rvega\documents\micro\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\include\_ansi.h c:\users\rvega\documents\micro\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\include\newlib.h c:\users\rvega\documents\micro\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\include\sys\config.h c:\users\rvega\documents\micro\gcc-arm-none-eabi-10.3-2021.10\lib\gcc\arm-none-eabi\10.3.1\include\stddef.h c:\users\rvega\documents\micro\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\include\sys\reent.h c:\users\rvega\documents\micro\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\include\_ansi.h c:\users\rvega\documents\micro\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\include\sys\_types.h c:\users\rvega\documents\micro\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\include\machine\_types.h c:\users\rvega\documents\micro\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\include\sys\lock.h c:\users\rvega\documents\micro\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\include\sys\cdefs.h c:\users\rvega\documents\micro\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\include\machine\stdlib.h c:\users\rvega\documents\micro\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\include\string.h c:\users\rvega\documents\micro\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\include\sys\string.h c:\users\rvega\documents\micro\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\include\math.h lib/TM4C1294NCPDT.h lib/../CMSIS/Include/core_cm4.h lib/../CMSIS/Include/core_cmInstr.h lib/../CMSIS/Include/core_cmFunc.h lib/../CMSIS/Include/core_cm4_simd.h lib/../lib/system_TM4C129.h lib/PLL.h lib/GPIO.h lib/UART.h lib/ADC.h lib/SYSTICK.h
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'GPIO'
+#  Last modified 2023-01-05 11:53:22
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'makedefs', line 174):
+	@if [ 'x${VERBOSE}' = x ];                            \
+	 then                                                 \
+	     echo "  CC    ${<}";                             \
+	 else                                                 \
+	     echo ${CC} ${CFLAGS} -D${COMPILER} -o ${@} ${<}; \
+	 fi
+	@${CC} ${CFLAGS} -D${COMPILER} -o ${@} ${<}
+
+# Not a target:
+c:\users\rvega\documents\micro\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\include\stdlib.h:
+#  Implicit rule search has been done.
+#  Last modified 2021-10-17 17:48:14
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+startup_gcc.c:
+#  Implicit rule search has been done.
+#  Last modified 2022-12-27 16:51:44
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+c:\users\rvega\documents\micro\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\include\math.h:
+#  Implicit rule search has been done.
+#  Last modified 2021-10-17 17:48:14
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+ADC.c:
+#  Implicit rule search has been done.
+#  Last modified 2023-01-09 13:26:52
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+c:\users\rvega\documents\micro\gcc-arm-none-eabi-10.3-2021.10\lib\gcc\arm-none-eabi\10.3.1\include\stdbool.h:
+#  Implicit rule search has been done.
+#  Last modified 2021-10-17 18:11:28
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+c:\users\rvega\documents\micro\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\include\sys\features.h:
+#  Implicit rule search has been done.
+#  Last modified 2021-10-17 17:48:14
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+lib/../CMSIS/Include/core_cmFunc.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-12-27 16:51:44
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+lib/SYSTICK.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-12-28 22:25:47
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+gcc/startup_gcc.d:
+#  Implicit rule search has been done.
+#  Last modified 2023-01-05 11:53:21
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+lib/../CMSIS/Include/core_cm4_simd.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-12-27 16:51:44
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+gcc/UART.d:
+#  Implicit rule search has been done.
+#  Last modified 2023-01-05 11:53:23
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+lib/ADC.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-12-27 16:51:44
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+c:\users\rvega\documents\micro\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\include\sys\cdefs. 
+h:
+#  Implicit rule search has been done.
+#  Last modified 2021-10-17 17:48:14
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+lib/hw_types.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-12-27 16:51:44
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+c:\users\rvega\documents\micro\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\include\sys\config.h:
+#  Implicit rule search has been done.
+#  Last modified 2021-10-17 17:48:14
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+lib/../CMSIS/Include/core_cmInstr.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-12-27 16:51:44
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+c:\users\rvega\documents\micro\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\include\sys\string.h:
+#  Implicit rule search has been done.
+#  Last modified 2021-10-17 17:48:14
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+lib/TM4C1294NCPDT.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-12-27 16:51:44
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+__dummy__:
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has been updated.
+#  Failed to be updated.
+
+# Not a target:
+main.ld:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# files hash-table stats:
+# Load=66/1024=6%, Rehash=0, Collisions=13/325=4%
+# VPATH Search Paths
+
+# No 'vpath' search paths.
+
+# General ('VPATH' variable) search path:
+# ../drivers;../../../utils
+
+# strcache buffers: 1 (0) / strings = 103 / storage = 3102 B / avg = 30 B
+# current buf: size = 8174 B / used = 3102 B / count = 103 / avg = 30 B
+
+# strcache performance: lookups = 335 / hit rate = 69%
+# hash-table stats:
+# Load=103/8192=1%, Rehash=0, Collisions=1/335=0%
+# Finished Make data base on Mon Jan 09 16:09:43 2023
+
+ 
