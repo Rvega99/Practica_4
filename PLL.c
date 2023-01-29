@@ -1,10 +1,3 @@
-/*
- * PLL.c
- *
- *  Created on: 26 abr. 2021
- *      Author: ASUS STRIX
- */
-
 #include "lib/include.h"
 
 extern void Configurar_PLL(void)
